@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kabilan | CSE Student Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#home" class="logo">Portfolio</a>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hello">HELLO, I'M</p>
+
+            <h1>Kabilan</h1>
+
+            <h2>Computer Science & Engineering Student</h2>
+
+            <p>
+                Passionate about web development, programming and
+                creating useful technology projects.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <h3>Who I Am</h3>
+
+                <p>
+                    I am a Computer Science and Engineering student
+                    interested in software development and modern
+                    web technologies.
+                </p>
+
+                <p>
+                    I enjoy learning programming languages, developing
+                    websites and building projects that improve my
+                    technical skills.
+                </p>
+
+                <div class="info">
+                    <p><strong>Education:</strong> B.E. Computer Science & Engineering</p>
+                    <p><strong>Interest:</strong> Web Development & Software Development</p>
+                    <p><strong>Career Goal:</strong> IT / Software Industry</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section skills-section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">HTML</div>
+                <h3>HTML</h3>
+                <p>Creating structured and semantic web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">CSS</div>
+                <h3>CSS</h3>
+                <p>Responsive layouts, animations and modern designs.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">JS</div>
+                <h3>JavaScript</h3>
+                <p>Adding interactive functionality to websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">C</div>
+                <h3>C Programming</h3>
+                <p>Programming fundamentals and problem solving.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">C++</div>
+                <h3>C++</h3>
+                <p>Object-oriented programming and data structures.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">PY</div>
+                <h3>Python</h3>
+                <p>Programming and application development.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">JAVA</div>
+                <h3>Java</h3>
+                <p>Object-oriented programming and application logic.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">GIT</div>
+                <h3>Git & GitHub</h3>
+                <p>Version control and project collaboration.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <div class="project-number">01</div>
+
+                <h3>Calculator</h3>
+
+                <p>
+                    A responsive calculator created using HTML, CSS
+                    and JavaScript with basic arithmetic operations.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a
+                    href="https://github.com/Kabilan-2306/calculator-project"
+                    target="_blank"
+                    class="project-link">
+                    View on GitHub →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">02</div>
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    A responsive personal portfolio website showcasing
+                    my skills, projects and contact information.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="#home" class="project-link">
+                    Current Project →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-number">03</div>
+
+                <h3>Web Development Project</h3>
+
+                <p>
+                    A front-end project created to practice responsive
+                    design and interactive web development.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+
+                <a href="#contact" class="project-link">
+                    More Details →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Resume -->
+    <section id="resume" class="section resume-section">
+
+        <h2 class="section-title">My Resume</h2>
+
+        <div class="resume-box">
+
+            <h3>Interested in my profile?</h3>
+
+            <p>
+                You can add your resume PDF to this project and
+                provide a download link here.
+            </p>
+
+            <a href="resume.pdf" download class="btn">
+                Download Resume
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+
+                <h3>Let's Connect</h3>
+
+                <p>
+                    Feel free to connect with me for opportunities,
+                    projects and professional discussions.
+                </p>
+
+                <div class="contact-details">
+
+                    <p>
+                        📧
+                        <strong>Email:</strong>
+                        your-email@example.com
+                    </p>
+
+                    <p>
+                        💻
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/Kabilan-2306"
+                           target="_blank">
+                            github.com/Kabilan-2306
+                        </a>
+                    </p>
+
+                    <p>
+                        💼
+                        <strong>LinkedIn:</strong>
+                        <a href="https://www.linkedin.com/"
+                           target="_blank">
+                            LinkedIn Profile
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © <span id="year"></span> Kabilan. All Rights Reserved.
+        </p>
+
+        <p>Built with HTML, CSS & JavaScript.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
